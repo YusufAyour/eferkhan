@@ -3,25 +3,20 @@
     <div>
       <logo />
       <h1 class="title">
-        EferkhanTmazirth
+        Eferkhan n^ Tmazirth
       </h1>
       <h2 class="subtitle">
-        My Project Nuxt Js
+        Votre application de pokémons
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
+        <a class="button--green">
+          <nuxt-link to="dashboard">
+            Commencer
+          </nuxt-link>
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
+         <a class="button--green"
+         href="#">
+            Notre Linkedin
         </a>
       </div>
     </div>
